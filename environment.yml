@@ -7,8 +7,7 @@ channels:
   - defaults
 dependencies:
   - fastqc=0.11.8
-  #- awscli=1.15.45 not needed if we use the right base image!?
-  - multiqc=1.6
+  - multiqc=1.7
   - unicycler=0.4.6
   - skewer=0.2.2
   - kraken2=2.0.7_beta
